@@ -74,9 +74,9 @@ class linePay {
             packages,
             options: { payment: { capture: true } },
             redirectUrls: {
-                confirmUrl: `https://liff.line.me/1656045804-jxZG6Q0d`, // confirm画面へリダイレクト
+                confirmUrl: `https://liff.line.me/***`, // confirm画面へリダイレクト
                 confirmUrlType: 'CLIENT',
-                cancelUrl: `https://liff.line.me/1656045804-jxZG6Q0d`, // cancel画面へリダイレクト
+                cancelUrl: `https://liff.line.me/***`, // cancel画面へリダイレクト
             }
         }
         
